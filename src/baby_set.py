@@ -1,7 +1,7 @@
 # baby_set.py
 
 class BabySet:
-	""" A class the mimics the behavior of python's built in 
+	""" A class that mimics the behavior of python's built in 
 	Set class. Implemented as a list."""
 
 	def __init__(self, d=[]):
@@ -20,7 +20,7 @@ class BabySet:
 		unique to the set."""
 
 		for i in self.__data:
-			if i != elem:
+			if i == elem:
 				return None # found existing value. Exit.
 		
 		self.__data.append(elem)
