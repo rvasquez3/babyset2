@@ -41,3 +41,6 @@ def test_clear():
     bset.clear()
 
 	
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
